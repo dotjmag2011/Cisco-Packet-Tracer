@@ -40,22 +40,22 @@ Cisco Packet Tracer Real life Projects
         <p><strong>Block size:</strong> 128</p>
     </div>
     
-<div class="section">
+    <div class="section">
         <h2>Router Configuration Code</h2>
         <div class="code-block">
-Router>
-Router>en
-Router#config t
-Router(config)#int range gig0/0-1
-Router(config-if-range)#no shut
-Router(config-if-range)#exit
-Router(config)#int gig0/0
-Router(config-if)#ip address 192.168.40.1 255.255.255.128
-Router(config-if)#int gig0/1
-Router(config-if)#ip address 192.168.40.129 255.255.255.128
-Router(config-if)#exit
-Router(config)#do wr
-Building configuration... [OK]
+    Router>
+    Router>en
+    Router#config t
+    Router(config)#int range gig0/0-1
+    Router(config-if-range)#no shut
+    Router(config-if-range)#exit
+    Router(config)#int gig0/0
+    Router(config-if)#ip address 192.168.40.1 255.255.255.128
+    Router(config-if)#int gig0/1
+    Router(config-if)#ip address 192.168.40.129 255.255.255.128
+    Router(config-if)#exit
+    Router(config)#do wr
+    Building configuration... [OK]
         </div>
     </div>
     
@@ -77,15 +77,15 @@ Building configuration... [OK]
         </ul>
     </div>
     
-<div class="section">
+    <div class="section">
         <h2>Ping Command Details</h2>
         <div class="code-block">
-C:\>ping 192.168.40.2
-Pinging 192.168.40.2 with 32 bytes of data:
-Request timed out.
-Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
-Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
-Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
+    C:\>ping 192.168.40.2
+    Pinging 192.168.40.2 with 32 bytes of data:
+    Request timed out.
+    Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
+    Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
+    Reply from 192.168.40.2: bytes=32 time<1ms TTL=127
         </div>
     </div>
 </body>
