@@ -20,7 +20,7 @@ Cisco Packet Tracer Real life Projects
         <p><a href="https://onedrive.live.com/view.aspx?resid=C09A73B9C3376B0E%21s35adc950e55d48649b0889c2e9bd50d4&id=documents" target="_blank">View OneNote Document</a></p>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Scenario</h2>
         <p>Design a network in CISCO packet tracer to connect ACCOUNTS and DELIVERY departments through the following:</p>
         <ul>
@@ -32,7 +32,7 @@ Cisco Packet Tracer Real life Projects
         </ul>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Subnetting</h2>
         <p><strong>Network:</strong> 192.168.40.0</p>
         <p>Number of departments: 2, so we need 2 Subnets</p>
@@ -40,7 +40,7 @@ Cisco Packet Tracer Real life Projects
         <p><strong>Block size:</strong> 128</p>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Router Configuration Code</h2>
         <div class="code-block">
 Router>
@@ -59,7 +59,7 @@ Building configuration... [OK]
         </div>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Account Department Devices Configuration</h2>
         <ul>
             <li><strong>PC0</strong>: IP 192.168.40.2, Subnet 255.255.255.128, Gateway 192.168.40.1</li>
@@ -68,7 +68,7 @@ Building configuration... [OK]
         </ul>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Delivery Department Devices Configuration</h2>
         <ul>
             <li><strong>PC2</strong>: IP 192.168.40.130, Subnet 255.255.255.128, Gateway 192.168.40.129</li>
@@ -77,7 +77,7 @@ Building configuration... [OK]
         </ul>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>Ping Command Details</h2>
         <div class="code-block">
 C:\>ping 192.168.40.2
