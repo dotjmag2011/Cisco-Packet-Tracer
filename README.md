@@ -1,5 +1,7 @@
 # Cisco-Packet-Tracer
-Cisco Packet Tracer Real life Projects
+#Simple Enterprise Network
+![Network Diagram](images/network-diagram.png)
+
 # OneNote Converted Notes
 
 ## OneNote Link
