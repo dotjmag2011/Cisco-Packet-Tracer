@@ -1,6 +1,9 @@
 # Cisco-Packet-Tracer
-#Simple Enterprise Network
-![Network Diagram](images/network-diagram.png)
+# Simple Enterprise Network
+
+
+![Network Diagram](https://github.com/dotjmag2011/Cisco-Packet-Tracer/blob/main/Screenshot%202025-04-04%20031337.png?raw=true)
+
 
 # OneNote Converted Notes
 
